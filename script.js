@@ -28,7 +28,7 @@ const api_url='https://www.coursehubiitg.in/api/codingweek/contributions';
 
 
     const head1=document.getElementById('recc2') 
-    head1.innerHTML += '<div class="lo" ><div class="im4"><span class="ins">2</span></div> <img src="' + anuragdata[0].avatar + '"   class="im1" alt=""><div class="l" style="text-align: center;"> '+anuragdata[0].name+': '+anuragdata[0].points+'</div></div> <div class="lo"> <div class="im4"><span class="ins">1</span></div><img src="' + anuragdata[1].avatar + '"   class="im1" alt=""><div class="k" style="text-align: center;"> '+anuragdata[1].name+': '+anuragdata[1].points+'</div></div> <div class="lo"><div class="im4"><span class="ins">3</span></div> <img src="' + anuragdata[2].avatar + '"   class="im1" alt=""><div class="g" style="text-align: center;"> '+anuragdata[2].name+': '+anuragdata[2].points+'</div></div> '
+    head1.innerHTML += '<div class="lo" ><div class="im4"><span class="ins">2</span></div> <img src="' + anuragdata[0].avatar + '"   class="im1" alt=""><div class="l" style="text-align: center;"> '+anuragdata[0].name+': '+anuragdata[0].points+'</div></div> <div class="lo"> <div class="im4"><span class="ins">1</span></div><img src="' + anuragdata[1].avatar + '"   class="im2" alt=""><div class="k" style="text-align: center;"> '+anuragdata[1].name+': '+anuragdata[1].points+'</div></div> <div class="lo"><div class="im4"><span class="ins">3</span></div> <img src="' + anuragdata[2].avatar + '"   class="im3" alt=""><div class="g" style="text-align: center;"> '+anuragdata[2].name+': '+anuragdata[2].points+'</div></div> '
 
     }
 
