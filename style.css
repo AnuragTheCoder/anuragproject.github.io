@@ -55,7 +55,7 @@ color: #FFFFFF;
 left: 0px;
 display: flex;
 flex-direction: row;
-height: 330px;
+height: 390px;
 
 border-bottom-left-radius: 40px;
 border-bottom-right-radius: 40px;
@@ -74,8 +74,8 @@ background: #656CEC;
 
 .im2{
     
-    width: 210px;
-    height: 210px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
   
     /* margin-bottom:70px;
@@ -98,11 +98,18 @@ background: #656CEC;
     
 }
      
-.im1,.im2,.im3{
+.im1,.im3{
     animation: bouncing 0.5s ease 0s infinite alternate both;
     display:block;
     border:5px solid white;
     margin-top:45px;
+    transition: width 2s,height 2s,border-radius 4s,background-color 4s;
+}
+.im2{
+animation: bouncing 0.5s ease 0s infinite alternate both;
+    display:block;
+    border:5px solid white;
+    margin-top:10px;
     transition: width 2s,height 2s,border-radius 4s,background-color 4s;
 }
 .im1:hover{
