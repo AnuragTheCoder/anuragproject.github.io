@@ -1,0 +1,42 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    int arr[n];
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+    }
+
+   int k;
+   cin>>k;
+   int i=0;
+   int j=0;
+   int sum=0;
+   int mx=0;
+   while(j-i+1<=k){
+      sum+=arr[j];
+      j++;
+      
+   } 
+   
+   mx=sum;
+   int sum2=sum;
+
+while(j<n&&j-i+1>k){
+     
+    sum2=sum2+arr[j]-arr[i];
+    j++;
+    i++;
+   
+   mx=max(mx,sum2);  
+}
+cout<<mx;
+   
+
+}
+
+
+
+
+ 
